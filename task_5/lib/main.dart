@@ -718,7 +718,7 @@ class PageTwo extends StatelessWidget {
   }
 }
 
-class Topics extends StatefulWidget
+class Topics extends State<MyHomePage>
     with SingleTickerProviderStateMixin {
   TabController _tabController;
   ScrollController _scrollViewController;
